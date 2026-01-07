@@ -2,7 +2,6 @@
 <svg width="1523px" height="1259px" viewBox="0 0 1523 1259" version="1.1" xmlns="http://www.w3.org/2000/svg"
      xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
     <!-- Generator: Sketch 3.5.1 (25234) - http://www.bohemiancoding.com/sketch -->
-    <title>bbb_logo</title>
     <desc>Created with Sketch.</desc>
     <!--    <defs>-->
     <!--        <linearGradient x1="100%" y1="80.4645116%" x2="0%" y2="21.0140628%" id="linearGradient-1">-->
@@ -19,7 +18,7 @@
     <!--        </radialGradient>-->
     <!--    </defs>-->
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="bbb_logo" sketch:type="MSLayerGroup" transform="translate(-290.000000, -225.000000)">
+        <g sketch:type="MSLayerGroup" transform="translate(-290.000000, -225.000000)">
             <g id="background"
                transform="translate(1200.761571, 843.546066) rotate(58.000000) translate(-1200.761571, -843.546066) translate(588.761571, 231.546066)"
                sketch:type="MSShapeGroup">
