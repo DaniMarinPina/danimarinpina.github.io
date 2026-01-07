@@ -1,0 +1,1192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniel Marín Pina</title>
+
+    <!--
+      - favicon
+    -->
+    <link rel="shortcut icon" href="./assets/images/photo.jpg" type="image/x-icon">
+
+    <!--
+      - custom css link
+    -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+      - google font link
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!--
+  - #MAIN
+-->
+
+<main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+        <div class="sidebar-info">
+
+            <figure class="avatar-box">
+                <img src="./assets/images/photo.jpg" alt="Daniel Marín Pina" width="80">
+            </figure>
+
+            <div class="info-content">
+                <h1 class="name" title="Daniel Marín Pina">Daniel <b>Marín Pina</b></h1>
+
+                <p class="title">Computational Astrophysicist</p>
+            </div>
+
+            <button class="info_more-btn" data-sidebar-btn>
+                <ion-icon class="sidebar-chevron" name="chevron-up"></ion-icon>
+            </button>
+
+        </div>
+
+        <div class="sidebar-info_more">
+
+            <div class="separator"></div>
+
+            <ul class="contacts-list">
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Email</p>
+
+                        <a href="mailto:daniel.marin@uni-heidelberg.de" class="contact-link">daniel.marin@uni-heidelberg.de</a>
+                    </div>
+
+                </li>
+
+                <!--                <li class="contact-item">-->
+
+                <!--                    <div class="icon-box">-->
+                <!--                        <ion-icon name="phone-portrait-outline"></ion-icon>-->
+                <!--                    </div>-->
+
+                <!--                    <div class="contact-info">-->
+                <!--                        <p class="contact-title">Phone</p>-->
+
+                <!--                        <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>-->
+                <!--                    </div>-->
+
+                <!--                </li>-->
+
+                <!--                <li class="contact-item">-->
+
+                <!--                    <div class="icon-box">-->
+                <!--                        <ion-icon name="calendar-outline"></ion-icon>-->
+                <!--                    </div>-->
+
+                <!--                    <div class="contact-info">-->
+                <!--                        <p class="contact-title">Birthday</p>-->
+
+                <!--                        <time datetime="1982-06-23">June 23, 1982</time>-->
+                <!--                    </div>-->
+
+                <!--                </li>-->
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="location-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Location</p>
+
+                        <address>Heidelberg University, Germany</address>
+                    </div>
+
+                </li>
+
+                <li class="contact-item">
+
+                    <div class="icon-box">
+                        <ion-icon name="document-text-outline"></ion-icon>
+                    </div>
+
+                    <div class="contact-info">
+                        <p class="contact-title">Curriculum Vitae</p>
+
+                        <a href="DanielMarinPina-CV.pdf" class="contact-link">
+                            <ion-icon class="inline-icon-align" name="download-outline"></ion-icon>
+                            Click to download</a>
+                    </div>
+
+                </li>
+
+            </ul>
+
+            <div class="separator"></div>
+
+            <ul class="social-list">
+
+                <li class="social-item">
+                    <a href="https://orcid.org/0000-0001-6482-1842" class="social-link">
+                        <ion-icon src="./assets/images/logo-orcid.svg"></ion-icon>
+                    </a>
+                </li>
+
+                <li class="social-item">
+                    <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3Aastronomy)&q=%20author%3A%22mar%C3%ADn%20pina%2C%20daniel%22%20%20author_count%3A%5B0%20TO%2020%5D&sort=date%20desc%2C%20bibcode%20desc&p_=0"
+                       class="social-link">
+                        <ion-icon src="./assets/images/logo-ads.svg"></ion-icon>
+                    </a>
+                </li>
+
+                <!--                <li class="social-item">-->
+                <!--                    <a href="https://github.com/DaniMarinPina" class="social-link">-->
+                <!--                        <ion-icon name="logo-github"></ion-icon>-->
+                <!--                    </a>-->
+                <!--                </li>-->
+
+                <li class="social-item">
+                    <a href="https://www.youtube.com/@DanielMar%C3%ADnPina" class="social-link">
+                        <ion-icon name="logo-youtube"></ion-icon>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+        <!--
+          - #NAVBAR
+        -->
+
+        <nav class="navbar">
+
+            <ul class="navbar-list">
+
+                <li class="navbar-item">
+                    <button class="navbar-link  active" data-pagelink="about" data-nav-link>About</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-pagelink="workedu" data-nav-link>Career</button>
+                </li>
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-pagelink="scicar" data-nav-link>Scientific work</button>
+                </li>
+
+                <!--                <li class="navbar-item">-->
+                <!--                    <button class="navbar-link" data-nav-link>Blog</button>-->
+                <!--                </li>-->
+
+                <li class="navbar-item">
+                    <button class="navbar-link" data-pagelink="contact" data-nav-link>Contact</button>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+        <!--
+          - #ABOUT
+        -->
+
+        <article class="about  active" data-page="about">
+
+            <header>
+                <h2 class="h2 article-title">About me</h2>
+            </header>
+
+            <section class="about-text">
+                <p>
+                    I am a theoretical astrophysicist based in the University of Heidelberg, Germany. My main interest is in stellar and black hole dynamics in star clusters, and the formation of dormant star-black hole binaries and gravitational waves from binary black hole mergers. My goal for the next years is to develop models for the population of these dormant star-black hole binaries, in preparation for the next <em class="italic">Gaia</em> data release and results from other massive surveys. Furthermore, I want to keep working on modelling the dynamical formation of binary black hole mergers in star clusters. This will help us understand the production of eccentric gravitational waves and the seeding and growth of intermediate-mass black holes.
+                </p>
+            </section>
+
+
+            <!--
+              - service
+            -->
+
+            <section class="service">
+
+                <h3 class="h3 service-title">What I'm doing</h3>
+
+                <ul class="service-list">
+
+                    <li class="service-item">
+                        <div class="service-icon-box">
+                            <ion-icon name="sparkles-outline"></ion-icon>
+                        </div>
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Cluster dynamics</h4>
+
+                            <p class="service-item-text">
+                                Simulating the internal dynamics of star clusters.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="service-item">
+                        <div class="service-icon-box">
+                            <ion-icon name="terminal-outline"></ion-icon>
+                        </div>
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">High performance computing</h4>
+
+                            <p class="service-item-text">
+                                Development of numerical methods to simulate stellar and cluster evolutions.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="service-item">
+                        <div class="service-icon-box">
+                            <ion-icon name="telescope-outline"></ion-icon>
+                        </div>
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Star-black hole binaries</h4>
+
+                            <p class="service-item-text">
+                                Formation of dormant star-black hole binaries.
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="service-item">
+                        <div class="service-icon-box">
+                            <ion-icon name="radio-outline"></ion-icon>
+                        </div>
+                        <div class="service-content-box">
+                            <h4 class="h4 service-item-title">Binary black hole mergers</h4>
+
+                            <p class="service-item-text">
+                                Gravitational waves from binary black hole mergers.
+                            </p>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+
+        <!--
+          - #RESUME
+        -->
+
+        <article class="resume" data-page="workedu">
+
+            <header>
+                <h2 class="h2 article-title">Career</h2>
+            </header>
+
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="briefcase-outline"></ion-icon>
+                    </div>
+                    <h3 class="h3">Work experience</h3>
+                </div>
+
+                <ol class="timeline-list">
+                    
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">DFG Postdoctoral Fellow</h4>
+                        <span>Institute for Theoretical Astrophysics, University of Heidelberg</span>
+                        <p class="timeline-text">
+                            <strong>Heidelberg, Germany</strong> (2025 - 2028 [ongoing])<br>
+                        </p>
+                    </li>
+                    
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">FPI Predoctoral Fellow</h4>
+                        <span>Institute of Cosmos Sciences, University of Barcelona</span>
+                        <p class="timeline-text">
+                            <strong>Barcelona, Spain</strong> (2021 - 2025)<br>
+                        </p>
+                    </li>
+                    
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title"><em class="italic">Gaia</em> DPAC Postgraduate Researcher</h4>
+                        <span>Technological Unit, Institute of Cosmos Sciences, University of Barcelona</span>
+                        <p class="timeline-text">
+                            <strong>Barcelona, Spain</strong> (2019 - 2021)<br>
+                        </p>
+                    </li>
+                    
+                </ol>
+            </section>
+
+            <section class="timeline">
+                <div class="title-wrapper">
+                    <div class="icon-box">
+                        <ion-icon name="school-outline"></ion-icon>
+                    </div>
+                    <h3 class="h3">Education</h3>
+                </div>
+
+                <ol class="timeline-list">
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">PhD Cum Laude in Astronomy and Astrophysics</h4>
+                        <span>Institute of Cosmos Sciences, University of Barcelona</span>
+                        <p class="timeline-text">
+                            <strong>Barcelona, Spain</strong> (2021 - 2025)<br>
+                            &bull; Thesis title: "Black hole dynamics in star clusters: Eccentric mergers and star-black
+                            hole binaries"<br>
+                            &bull; Grade: Excellent Cum Laude (maximum possible grade)<br>
+                            &bull; Advisor: Prof. Mark Gieles<br>
+                        </p>
+                    </li>
+
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Master in Astrophysics, Particle Physics and Cosmology</h4>
+                        <span>University of Barcelona</span>
+                        <p class="timeline-text">
+                            <strong>Barcelona, Spain</strong> (2019 - 2020)<br>
+
+                            &bull; Master's thesis title: "Event horizon in a compact binary coalescence"<br>
+                            &bull; Advisor: Prof. Roberto Emparan<br>
+
+                        </p>
+                    </li>
+
+                    <li class="timeline-item">
+                        <h4 class="h4 timeline-item-title">Bachelor in Physics</h4>
+                        <span>University of Barcelona</span>
+                        <span>NTNU Norwegian University of Science and Technology (2018)</span>
+                        <p class="timeline-text">
+                            <strong>Barcelona, Spain</strong> (2015 - 2019)
+                        </p>
+                    </li>
+                </ol>
+            </section>
+
+        </article>
+
+
+        <!--
+          - #PORTFOLIO
+        -->
+
+        <article class="portfolio" data-page="scicar">
+
+            <header>
+                <h2 class="h2 article-title">Scientific work</h2>
+            </header>
+
+            <section class="projects">
+
+                <ul class="filter-list">
+
+                    <li class="filter-item">
+                        <button class="active" data-filter-btn>All</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Papers</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Awards and honors</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Teaching and advising</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Talks</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Outreach</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Conferences</button>
+                    </li>
+
+                    <li class="filter-item">
+                        <button data-filter-btn>Schools</button>
+                    </li>
+
+                    <!--                    <li class="filter-item">-->
+                    <!--                        <button data-filter-btn>Other</button>-->
+                    <!--                    </li>-->
+
+                </ul>
+
+                <div class="filter-select-box">
+
+                    <button class="filter-select" data-select>
+
+                        <div class="select-value" data-selecct-value>Select category</div>
+
+                        <div class="select-icon">
+                            <ion-icon name="chevron-down"></ion-icon>
+                        </div>
+
+                    </button>
+
+                    <ul class="select-list">
+
+                        <li class="select-item">
+                            <button data-select-item>All</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>Papers</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>Awards and honors</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>Teaching and advising</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>Talks</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>Outreach</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>Conferences</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>Schools</button>
+                        </li>
+
+                        <li class="select-item">
+                            <button data-select-item>Other</button>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+                <ul class="project-list">
+                    <li class="project-item  active" data-filter-item data-category="papers">
+                        <section class="timeline">
+                            <div class="title-wrapper">
+                                <div class="icon-box">
+                                    <ion-icon name="document-text-outline"></ion-icon>
+                                </div>
+                                <h3 class="h3">Papers</h3>
+                            </div>
+
+                            <ol class="timeline-list">
+                                
+                                <li class="timeline-item">
+                                    <a href="https://dx.doi.org/10.1051/0004-6361/202453531" class="inherit-link">
+                                        <h4 class="h4 timeline-item-title">Interactions among binary black holes in star clusters: Eccentric gravitational wave captures and triple formation</h4>
+                                        <span><strong>Daniel</strong> <strong>Marín Pina</strong>, Mark Gieles, Tomas Andrade, et al.</span>
+                                        <p class="timeline-text">
+
+                                            Astronomy and Astrophysics (2025)
+
+                                        </p>
+                                    </a>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <a href="https://dx.doi.org/10.1051/0004-6361/202450890" class="inherit-link">
+                                        <h4 class="h4 timeline-item-title">Binary-single interactions with different mass ratios: Implications for gravitational waves from globular clusters</h4>
+                                        <span>Bruno Rando Forastier, <strong>Daniel</strong> <strong>Marín Pina</strong>, Mark Gieles, et al.</span>
+                                        <p class="timeline-text">
+
+                                            Astronomy and Astrophysics (2025)
+
+                                        </p>
+                                    </a>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <a href="https://dx.doi.org/10.1051/0004-6361/202450460" class="inherit-link">
+                                        <h4 class="h4 timeline-item-title">Dynamical formation of Gaia BH3 in the progenitor globular cluster of the ED-2 stream</h4>
+                                        <span><strong>Daniel</strong> <strong>Marín Pina</strong>, Sara Rastello, Mark Gieles, et al.</span>
+                                        <p class="timeline-text">
+
+                                            Astronomy and Astrophysics (2024)
+
+                                        </p>
+                                    </a>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <a href="https://dx.doi.org/10.1093/mnras/stad3777" class="inherit-link">
+                                        <h4 class="h4 timeline-item-title">Demographics of three-body binary black holes in star clusters: implications for gravitational waves</h4>
+                                        <span><strong>Daniel</strong> <strong>Marín Pina</strong>, Mark Gieles</span>
+                                        <p class="timeline-text">
+
+                                            Monthly Notices of the RAS (2024)
+
+                                        </p>
+                                    </a>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <a href="https://dx.doi.org/10.1103/PhysRevD.106.084012" class="inherit-link">
+                                        <h4 class="h4 timeline-item-title">Event horizon of a charged black hole binary merger</h4>
+                                        <span><strong>Daniel</strong> <strong>Marín Pina</strong>, Marta Orselli, Daniele Pica</span>
+                                        <p class="timeline-text">
+
+                                            Physical Review D (2022)
+
+                                        </p>
+                                    </a>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <a href="https://dx.doi.org/10.1103/PhysRevD.102.024009" class="inherit-link">
+                                        <h4 class="h4 timeline-item-title">Precursory collapse in neutron star-black hole mergers</h4>
+                                        <span>Roberto Emparan, <strong>Daniel</strong> <strong>Marín Pina</strong></span>
+                                        <p class="timeline-text">
+
+                                            Physical Review D (2020)
+
+                                        </p>
+                                    </a>
+                                </li>
+                                
+                                <button class="show-all-btn" data-toggle-timeline>
+                                    <ion-icon class="inline-icon" name="chevron-down-outline"></ion-icon>
+                                    Show all
+                                </button>
+                            </ol>
+                        </section>
+                    </li>
+
+                    <li class="project-item active" data-filter-item data-category="awards and honors">
+                        <section class="timeline">
+                            <div class="title-wrapper">
+                                <div class="icon-box">
+                                    <ion-icon name="trophy-outline"></ion-icon>
+                                </div>
+                                <h3 class="h3">Awards and honors</h3>
+                            </div>
+
+                            <ol class="timeline-list">
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">PhD Thesis Cum Laude</h4>
+                                    <span>Black hole dynamics in star clusters: Eccentric mergers and star-black hole binaries</span>
+                                    <p class="timeline-text">
+                                        University of Barcelona (2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Best Poster Presentation</h4>
+                                    <span>Two in a million: The interplay between binaries and star clusters</span>
+                                    <p class="timeline-text">
+                                        ESO Garching, Germany (2023)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Best Master's Thesis</h4>
+                                    <span>Event horizon in a compact binary coalescence</span>
+                                    <p class="timeline-text">
+                                        University of Barcelona (2020)
+                                    </p>
+                                </li>
+                                
+                                <button class="show-all-btn" data-toggle-timeline>
+                                    <ion-icon class="inline-icon" name="chevron-down-outline"></ion-icon>
+                                    Show all
+                                </button>
+                            </ol>
+                        </section>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="teaching and advising">
+                        <section class="timeline">
+                            <div class="title-wrapper">
+                                <div class="icon-box">
+                                    <ion-icon name="book-outline"></ion-icon>
+                                </div>
+                                <h3 class="h3">Teaching and advising</h3>
+                            </div>
+
+                            <ol class="timeline-list">
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Coadvising Master student Bruno Rando Forastier</h4>
+                                    <!--                                    <span>2023-2024</span>-->
+                                    <p class="timeline-text">
+                                        Universitat de Barcelona (Barcelona, Spain; 2023-2024)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Coadvising Bachelor student Clàudia Garcia Diago</h4>
+                                    <!--                                    <span>2024-2025</span>-->
+                                    <p class="timeline-text">
+                                        Universitat de Barcelona (Barcelona, Spain; 2024-2025)
+                                    </p>
+                                </li>
+                                
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Algebra and lineal geometry</h4>
+                                    <p class="timeline-text">
+                                        <strong>Teaching assistant (12h)</strong><br>
+                                        Universitat de Barcelona (Barcelona, Spain; 2024-2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Algebra and lineal geometry</h4>
+                                    <p class="timeline-text">
+                                        <strong>Teaching assistant (12h)</strong><br>
+                                        Universitat de Barcelona (Barcelona, Spain; 2023-2024)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Algebra and lineal geometry</h4>
+                                    <p class="timeline-text">
+                                        <strong>Teaching assistant (30h)</strong><br>
+                                        Universitat de Barcelona (Barcelona, Spain; 2022-2023)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Calculus I</h4>
+                                    <p class="timeline-text">
+                                        <strong>Teaching assistant (15h)</strong><br>
+                                        Universitat de Barcelona (Barcelona, Spain; 2021-2022)
+                                    </p>
+                                </li>
+                                
+                                <button class="show-all-btn" data-toggle-timeline>
+                                    <ion-icon class="inline-icon" name="chevron-down-outline"></ion-icon>
+                                    Show all
+                                </button>
+                            </ol>
+                        </section>
+                    </li>
+
+
+                    <li class="project-item  active" data-filter-item data-category="talks">
+                        <section class="timeline">
+                            <div class="title-wrapper">
+                                <div class="icon-box">
+                                    <ion-icon name="chatbox-ellipses-outline"></ion-icon>
+                                </div>
+                                <h3 class="h3">Talks</h3>
+                            </div>
+
+                            <ol class="timeline-list">
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Contributed talk: "The dynamical origin of Gaia BH3"</h4>
+                                    <span>IAU Symposium 398/MODEST-25: Compact Stars and Binaries in Dense Star Clusters</span>
+                                    <p class="timeline-text">
+                                        Seoul National University (Seoul, South Korea; June 15–20, 2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Contributed talk: "The dynamical origin of Gaia BH3"</h4>
+                                    <span>MODEST-25SPZ: Advanced Simulations and Modeling in Astrophysics</span>
+                                    <p class="timeline-text">
+                                        Academiehuis Zwolle (Zwolle, the Netherlands; May 19–23, 2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Invited seminar: "Interactions among binary black holes in star clusters"</h4>
+                                    <span>Cardiff Astro Seminar series</span>
+                                    <p class="timeline-text">
+                                        Cardiff University (Cardiff, United Kingdom; January 22, 2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Contributed talk: "BBH-BBH interactions: eccentric gravitational wave captures and triple formation"</h4>
+                                    <span>New ideas on the origin of black hole mergers</span>
+                                    <p class="timeline-text">
+                                        Niels Bohr International Academy (Copenhagen, Denmark; August 12–16, 2024)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Contributed talk: "Where do gravitational waves with non-negligible eccentricity come from?"</h4>
+                                    <span>Cross-Collserola PhD Meeting in Astrophysics, Cosmology and Particles 2023</span>
+                                    <p class="timeline-text">
+                                        Institute of Cosmos Sciences (Barcelona, Spain; October 6, 2023)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Contributed talk: "Dynamical BBH formation and disruption: Implications for gravitational waves"</h4>
+                                    <span>MODEST-23: Star clusters in the post-pandemic era</span>
+                                    <p class="timeline-text">
+                                        Northwestern University, CIERA (Evanston, USA; August 28-September 1, 2023)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Contributed talk: "The demographics of dynamically-formed BBHs in star clusters"</h4>
+                                    <span>Nordic Winter School on Gravitational Astrophysics</span>
+                                    <p class="timeline-text">
+                                        Niels Bohr International Academy (Skeikampen, Norway; January 29-February 3, 2023)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Contributed talk: "Black hole mergers from star clusters"</h4>
+                                    <span>IEEC Forum</span>
+                                    <p class="timeline-text">
+                                        Institute of Space Studies of Catalonia (Barcelona, Spain; June 2, 2022)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Invited talk: "Black hole mergers from star clusters"</h4>
+                                    <span>ICCUB Winter Meeting</span>
+                                    <p class="timeline-text">
+                                        Institute of Cosmos Sciences (Barcelona, Spain; February 7-8, 2022)
+                                    </p>
+                                </li>
+                                
+                                <button class="show-all-btn" data-toggle-timeline>
+                                    <ion-icon class="inline-icon" name="chevron-down-outline"></ion-icon>
+                                    Show all
+                                </button>
+                            </ol>
+
+                        </section>
+                    </li>
+
+
+                    <li class="project-item  active" data-filter-item data-category="outreach">
+                        <section class="timeline">
+                            <div class="title-wrapper">
+                                <div class="icon-box">
+                                    <ion-icon name="mic-outline"></ion-icon>
+                                </div>
+                                <h3 class="h3">Outreach</h3>
+                            </div>
+
+                            <ol class="timeline-list">
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Passeig virtual per la galàxia</h4>
+                                    <span>Outreach activity for kids</span>
+                                    <p class="timeline-text">
+                                        Centre cívic Vil·la Urània (Barcelona, Spain; May 26, 2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Passeig virtual per la galàxia</h4>
+                                    <span>Outreach activity for kids</span>
+                                    <p class="timeline-text">
+                                        Centre cívic Vil·la Urània (Barcelona, Spain; May 14, 2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Interview #MotorDeLaRecerca</h4>
+                                    <span>Instagram interview</span>
+                                    <p class="timeline-text">
+                                        @ubdivulga (Barcelona, Spain; April 29, 2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Universitat de l'Experiència &mdash; L'Univers com un tot: L'univers en contínua expansió I, II, III</h4>
+                                    <span>Outreach lecture series for senior citizens (6h)</span>
+                                    <p class="timeline-text">
+                                        Universitat de Barcelona (Barcelona, Spain; April 1, 8 and 22, 2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Telenotícies - Gran alineament dels planetes</h4>
+                                    <span>TV interview</span>
+                                    <p class="timeline-text">
+                                        TV3 - National Catalan TV (Barcelona, Spain; February 28, 2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Universitat de l'Experiència &mdash; L'Univers com un tot: L'univers en contínua expansió I, II, III</h4>
+                                    <span>Outreach lecture series for senior citizens (6h)</span>
+                                    <p class="timeline-text">
+                                        Universitat de Barcelona (Barcelona, Spain; April 2, 16 and 18, 2024)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Experiments de Física 2024</h4>
+                                    <span>Outreach lecture for high school students (8h)</span>
+                                    <p class="timeline-text">
+                                        Universitat de Barcelona (Barcelona, Spain; January 23 and 31, 2024)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">L’Univers és ple de colors: l’astrofísica a través de múltiples mirades</h4>
+                                    <span>Outreach lecture series</span>
+                                    <p class="timeline-text">
+                                        Biblioteca Gabriel García Márquez (Barcelona, Spain; September 26, 2023)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Il·luminem els forats negres: iniciació a l'astrofísica i la gravitació</h4>
+                                    <span>Outreach lecture series (12h)</span>
+                                    <p class="timeline-text">
+                                        Centre Cívic Casa Golferichs (Barcelona, Spain; April 27-June 29, 2023)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Constel·lacions en 3D</h4>
+                                    <span>Outreach activity for kids</span>
+                                    <p class="timeline-text">
+                                        Biblioteca Municipal de Bellavista (Les Franqueses del Vallès, Spain; February 4, 2023)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Forats negres amb Dani Marín</h4>
+                                    <span>Radio interview</span>
+                                    <p class="timeline-text">
+                                        La Caravana de Ràdio Estel (Barcelona, Spain; February 1, 2023)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Experiments de Física 2023</h4>
+                                    <span>Outreach lecture for high school students (8h)</span>
+                                    <p class="timeline-text">
+                                        Universitat de Barcelona (Barcelona, Spain; January 23 and 25, 2023)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Apadrina un doctorand Roast Battle (Encontres tercer cicle)</h4>
+                                    <span>Outreach lecture for undergraduate students</span>
+                                    <p class="timeline-text">
+                                        Universitat de Barcelona (Barcelona, Spain; November 15, 2022)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Constel·lacions en 3D</h4>
+                                    <span>Outreach activity for kids</span>
+                                    <p class="timeline-text">
+                                        15a festa de la ciència (Barcelona, Spain; May 29, 2022)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Il·luminem els forats negres: iniciació a l'astrofísica i la gravitació</h4>
+                                    <span>Outreach lecture series (12h)</span>
+                                    <p class="timeline-text">
+                                        Centre Cívic Casa Golferichs (Barcelona, Spain; April 28-June 16, 2022)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Mirem la lluna des de la plaça de la palmera</h4>
+                                    <span>Astronomical observation</span>
+                                    <p class="timeline-text">
+                                        Pla d’Acció Comunitària de la Verneda i la Pau – Associació ÀGORA, Institut de Ciències del Cosmos de la Universitat de Barcelona (Barcelona, Spain; June 10, 2022)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Desenvolupament de la carrera professional</h4>
+                                    <span>Round table</span>
+                                    <p class="timeline-text">
+                                        IEEC Forum 2022 (Barcelona, Spain; June 2, 2022)
+                                    </p>
+                                </li>
+                                
+                                <button class="show-all-btn" data-toggle-timeline>
+                                    <ion-icon class="inline-icon" name="chevron-down-outline"></ion-icon>
+                                    Show all
+                                </button>
+                            </ol>
+                        </section>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="conferences">
+                        <section class="timeline">
+                            <div class="title-wrapper">
+                                <div class="icon-box">
+                                    <ion-icon name="globe-outline"></ion-icon>
+                                </div>
+                                <h3 class="h3">Conferences</h3>
+                            </div>
+
+                            <ol class="timeline-list">
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Stellar-Mass Black Holes at the Nexus of Optical, X-ray, and Gravitational Wave Surveys</h4>
+                                    <span>Kavli Institute for Theoretical Physics</span>
+                                    <p class="timeline-text">
+                                        Santa Barbara, California, USA (November 3-December 4, 2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">The Lifecycle of Stellar Black Holes</h4>
+                                    <span>Kavli Institute for Theoretical Physics</span>
+                                    <p class="timeline-text">
+                                        Santa Barbara, California, USA (November 17-20, 2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">IAU Symposium 398/MODEST-25: Compact Stars and Binaries in Dense Star Clusters</h4>
+                                    <span>Seoul National University</span>
+                                    <p class="timeline-text">
+                                        Seoul, South Korea (June 15–20, 2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">MODEST-25SPZ: Advanced Simulations and Modeling in Astrophysics</h4>
+                                    <span>Academiehuis Zwolle</span>
+                                    <p class="timeline-text">
+                                        Zwolle, the Netherlands (May 19–23, 2025)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Challenges and future perspectives in gravitational- wave astronomy: O4 and beyond</h4>
+                                    <span>Lorentz Center</span>
+                                    <p class="timeline-text">
+                                        Leiden, the Netherlands (October 14–18, 2024)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">New ideas on the origin of black hole mergers</h4>
+                                    <span>Niels Bohr Institute</span>
+                                    <p class="timeline-text">
+                                        Copenhagen, Denmark (August 12–16, 2024)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Two in a million: The interplay between binaries and star clusters</h4>
+                                    <span>European Southern Observatory (ESO)</span>
+                                    <p class="timeline-text">
+                                        ESO Garching, Germany (September 11-15, 2023)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">MODEST-23: Star clusters in the post-pandemic era</h4>
+                                    <span>Northwestern University, CIERA</span>
+                                    <p class="timeline-text">
+                                        Evanston, USA (August 28-September 1, 2023)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">XV Scientific Meeting</h4>
+                                    <span>Spanish Astronomical Society (SEA)</span>
+                                    <p class="timeline-text">
+                                        Tenerife, Spain (September 5-9, 2022)
+                                    </p>
+                                </li>
+                                
+                                <button class="show-all-btn" data-toggle-timeline>
+                                    <ion-icon class="inline-icon" name="chevron-down-outline"></ion-icon>
+                                    Show all
+                                </button>
+                            </ol>
+                        </section>
+                    </li>
+
+                    <li class="project-item  active" data-filter-item data-category="schools">
+                        <section class="timeline">
+                            <div class="title-wrapper">
+                                <div class="icon-box">
+                                    <ion-icon name="pencil-outline"></ion-icon>
+                                </div>
+                                <h3 class="h3">Schools</h3>
+                            </div>
+
+                            <ol class="timeline-list">
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Nordic Winter School on Gravitational Astrophysics</h4>
+                                    <span>Niels Bohr International Academy</span>
+                                    <p class="timeline-text">
+                                        Skeikampen, Norway (January 29-February 3, 2023)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Workshop on Gravitational Wave Modelling</h4>
+                                    <span>University of Barcelona</span>
+                                    <p class="timeline-text">
+                                        Barcelona, Spain (October 10-11, 2022)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Gravitational Wave Open Data Workshop</h4>
+                                    <span>University of Heidelberg</span>
+                                    <p class="timeline-text">
+                                        Heidelberg, Germany (Online) (May 23-25, 2022)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">N-Body Simulation Lecture</h4>
+                                    <span>University of Heidelberg</span>
+                                    <p class="timeline-text">
+                                        Heidelberg, Germany (Online) (September 27-29, 2021)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Summer School on Gravitational Wave Astrophysics</h4>
+                                    <span>Niels Bohr International Academy (NBIA)</span>
+                                    <p class="timeline-text">
+                                        Copenhagen, Denmark (Online due to COVID) (August 2-6, 2021)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">Summer School on Gravitational Waves 2021</h4>
+                                    <span>International School on AstroParticle Physics (ISAPP)</span>
+                                    <p class="timeline-text">
+                                        Paris, France (Online due to COVID) (June 7-17, 2021)
+                                    </p>
+                                </li>
+                                
+                                <li class="timeline-item">
+                                    <h4 class="h4 timeline-item-title">GWADW2021 Gravitational Wave Advanced Detector Workshop</h4>
+                                    <span>National Institute of Nuclear Physics (INFN)</span>
+                                    <p class="timeline-text">
+                                        Rome, Italy (Online due to COVID) (May 17-21, 2021)
+                                    </p>
+                                </li>
+                                
+                                <button class="show-all-btn" data-toggle-timeline>
+                                    <ion-icon class="inline-icon" name="chevron-down-outline"></ion-icon>
+                                    Show all
+                                </button>
+                            </ol>
+                        </section>
+                    </li>
+
+                </ul>
+
+            </section>
+
+        </article>
+
+
+        <!--
+          - #CONTACT
+        -->
+
+        <article class="contact" data-page="contact">
+
+            <header>
+                <h2 class="h2 article-title">Contact</h2>
+            </header>
+
+            <p class="about-text"> Reach me in Office 001 at Albert-Ueberle-Straße 3-5 or via e-mail at
+                <a href="mailto:daniel.marin@uni-heidelberg.de" class="contact-window-link">daniel.marin@uni-heidelberg.de</a>
+            </p>
+            <section class="mapbox" data-mapbox>
+                <figure>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2595.7094070645617!2d8.691867112342505!3d49.41440086129838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4797c119f604d913%3A0xdec3e6bf9759029f!2sAlbert-Ueberle-Stra%C3%9Fe%203-5%2C%2069120%20Heidelberg!5e0!3m2!1ses!2sde!4v1767707204796!5m2!1ses!2sde"
+                            width="400" height="300" loading="lazy"></iframe>
+                </figure>
+            </section>
+
+            <!--            <section class="contact-form">-->
+
+            <!--                <h3 class="h3 form-title">Contact Form</h3>-->
+
+            <!--                <form action="#" class="form" data-form>-->
+
+            <!--                    <div class="input-wrapper">-->
+            <!--                        <input type="text" name="fullname" class="form-input" placeholder="Full name" required-->
+            <!--                               data-form-input>-->
+
+            <!--                        <input type="email" name="email" class="form-input" placeholder="Email address" required-->
+            <!--                               data-form-input>-->
+            <!--                    </div>-->
+
+            <!--                    <textarea name="message" class="form-input" placeholder="Your Message" required-->
+            <!--                              data-form-input></textarea>-->
+
+            <!--                    <button class="form-btn" type="submit" disabled data-form-btn>-->
+            <!--                        <ion-icon name="paper-plane"></ion-icon>-->
+            <!--                        <span>Send Message</span>-->
+            <!--                    </button>-->
+
+            <!--                </form>-->
+
+            <!--            </section>-->
+
+        </article>
+
+    </div>
+
+</main>
+
+
+<!--
+  - custom js link
+-->
+<script src="./assets/js/script.js"></script>
+
+<!--
+  - ionicon link
+-->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
